@@ -1,7 +1,7 @@
 # Welcome to my GitHub!
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/juanmcalderon/)
-[![Personal Website]](https://juancal28.github.io/github_website/)
+[![Personal Website]([https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)))](https://juancal28.github.io)
 
 ## About Me
 
