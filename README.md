@@ -1,17 +1,14 @@
 # Welcome to my GitHub!
 
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fjuancal28&count_bg=%2379C83D&title_bg=%23555555&icon=github.svg&icon_color=%23E7E7E7&title=Profile+Views&edge_flat=false)](https://hits.seeyoufarm.com)
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/juanmcalderon/)
-[![Gmail](https://img.shields.io/badge/-Gmail-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:juancalpe1028@gmail.com)
 [![Website](https://img.shields.io/badge/-Portfolio-000000?style=flat&logo=googlechrome&logoColor=white)](https://juancal28.github.io/github_website/)
-[![GitHub followers](https://img.shields.io/github/followers/juancal28?label=Follow&style=social)](https://github.com/juancal28)
 
 ## About Me
 
-- **EECS student at UC Berkeley** with research experience at Emory University and Georgia Institute of Technology
+- **EECS student at the University of California, Berkeley** with research experience at Emory University and Georgia Institute of Technology
 - **Former SDE Intern at AWS**, where I built CI/CD pipelines, developed RAG agents, and coordinated a team of 6 interns on multi-agent applications
 - **Published researcher** with a peer-reviewed paper on computational drug discovery and a pending US patent on RNA polymerase inhibitory compounds
-- Passionate about **algorithm design, low-level programming**, and the mathematics behind computer science
+- Passionate about **algorithm design, creating full-stack applications**, and the mathematics behind computer science
 
 ## Skills
 
