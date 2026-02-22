@@ -73,5 +73,5 @@ A production-grade paper trading system that autonomously ingests financial news
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=juancal28&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&icon_color=79C83D" alt="Top Languages" />
   <br/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=juancal28&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com/?user=juancal28&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </p>
