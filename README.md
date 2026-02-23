@@ -71,9 +71,12 @@ A production-grade paper trading system that autonomously ingests financial news
 ## GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=juancal28&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" />
+  <img src="profile-summary-card-output/tokyonight/0-profile-details.svg" alt="Profile Details" />
   <br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=juancal28&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" />
+  <img src="profile-summary-card-output/tokyonight/1-repos-per-language.svg" alt="Repos Per Language" />
+  <img src="profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="Most Commit Language" />
+  <br/>
+  <img src="profile-summary-card-output/tokyonight/3-stats.svg" alt="GitHub Stats" />
   <br/>
   <img src="https://streak-stats.demolab.com/?user=juancal28&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </p>
