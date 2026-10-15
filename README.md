@@ -5,37 +5,48 @@
 
 ## About Me
 
-- **EECS student at the University of California, Berkeley** with research experience at Emory University and Georgia Institute of Technology
-- **Former SDE Intern at AWS**, where I built CI/CD pipelines, developed RAG agents, and coordinated a team of 6 interns on multi-agent applications
-- **Published researcher** with a peer-reviewed paper on computational drug discovery and a pending US patent on RNA polymerase inhibitory compounds
-- Passionate about **algorithm design, creating full-stack applications**, and the mathematics behind computer science
+- **EECS & Mathematics student at UC Berkeley** (Class of 2028)
+- **Former Software Engineer Intern at Microsoft** (Summer 2026) — built centralized OpenTelemetry + Azure Application Insights telemetry across 6 internal AI services, cross-service correctness gates for Model Context Protocol (MCP) workflows, and LLM evaluation infrastructure with QoS dashboards used by senior leadership
+- **Former SDE Intern at AWS on the SageMaker team** (Summer 2025) — built CI/CD pipelines for ECS Fargate services, developed RAG agents over 100,000+ entry S3 buckets on SageMaker Unified Studio, and coordinated a team of 6 interns on a multi-agent application
+- **Published researcher** — automated a molecular docking pipeline at Emory University that scaled to 2,000,000+ molecules on HPC clusters, leading to a peer-reviewed paper and a US patent on RNA polymerase inhibitory compounds
+- Interested in **quantitative trading, distributed systems, and AI infrastructure**, and the mathematics behind them
 
-## Current Projects
+## Projects
 
-### [Homely](https://github.com/juancal28/homely)
-A full-stack marketplace platform connecting homeowners with skilled trade professionals for home-building and renovation projects. Homeowners can browse verified contractors, discover land listings, schedule appointments, and manage projects end-to-end. Professionals get a dedicated portal to manage jobs, earnings, and client communication. Features an AI Design Advisor powered by a custom RAG pipeline with Claude and LangChain.
+### [NBA Live-Game Trading Bot on Polymarket](https://github.com/juancal28/nba-total-score-bot)
+A live NBA over/under trading bot written in Rust that trades on Polymarket's CLOB. It fits a Poisson process to first-quarter scoring via MLE, validates rate stability with a two-sample likelihood-ratio test, and bootstraps a 95% CI on the projected total to size edge against market-implied probability. Execution runs on a multi-threaded tokio runtime with lock-free order-book snapshots from CLOB WebSockets, VWAP slippage and staleness checks, EIP-712-signed FOK orders, and redb-persisted idempotent order IDs for crash-safe restarts. Risk controls include position caps, daily-loss limits, a blowout filter, and a feed-gap kill switch.
 
-**Tech:** React, TypeScript, Node.js, Express, PostgreSQL, Tailwind CSS, Anthropic Claude, LangChain, Capacitor (iOS/Android), Cloudinary, Railway
+**Tech:** Rust, tokio, WebSockets, Polymarket CLOB, SportRadar, redb
 
-### [quantAlgoV1](https://github.com/juancal28/quantAlgoV1)
-A production-grade paper trading system that autonomously ingests financial news, proposes AI-assisted strategy adjustments validated via rigorous backtesting, and executes paper trades with full risk management. The pipeline includes news ingestion, FinBERT sentiment analysis, a Claude-powered RAG agent for strategy proposals, dual-window backtesting (in-sample + out-of-sample), human-in-the-loop approval gates, and a paper broker with circuit breakers and position limits.
+### [News-Based, RAG-Assisted Trading System](https://github.com/juancal28/quantAlgoV1)
+An autonomous pipeline that ingests financial news, scores sentiment with FinBERT, embeds articles into Qdrant, and generates RAG-based strategy proposals gated behind dual-window backtesting (252-day in-sample + 90-day out-of-sample), lookahead-bias guards, and human-in-the-loop approval. A $100K paper trading layer uses cross-sectional sentiment signals, VIX volatility gating, and 10% per-position caps. The hot-path execution code (backtest engine, cost model, broker, risk checks) is compiled to C++ via pybind11/CMake and validated by 24 parity tests against the Python reference implementations.
 
-**Tech:** Python, FastAPI, Celery, Redis, PostgreSQL, Qdrant, FinBERT, Anthropic Claude, Alpaca API
+**Tech:** Python, C++, pybind11, FastAPI, Celery, Redis, PostgreSQL, Qdrant, FinBERT, Anthropic Claude, Alpaca API
 
-## Skills
+### Homely — Home Services Marketplace
+A dual-sided marketplace connecting homeowners with trade professionals, built on React 19 + Express with JWT auth, role-based access control, and real-time messaging, and shipped as a cross-platform PWA with CI/CD via GitHub Actions and Railway. Features a RAG-powered AI advisor (LangChain, Claude) and an MCP server that drives agentic workflows for contractor matching, job discovery, and scheduling.
 
-- Algorithm Design & Data Structures
-- Full-Stack Web Development
-- Cloud Infrastructure & CI/CD
-- Computational Research & Drug Discovery
-- AI Agent Development & RAG Systems
-- Cluster Computing & High-Performance Computing
+**Tech:** TypeScript, React, Node.js, Express, PostgreSQL, Tailwind CSS, LangChain, Anthropic Claude, MCP, Railway
+
+## Awards & Honors
+
+- Jane Street FOCUS program participant (1 of ~40)
+- Gates Scholarship recipient (1 of 750)
+- Microsoft HOLA Scholarship recipient (1 of 13)
+- Amazon Future Engineer Scholarship recipient (1 of 400)
+- Top 5% on the 2024 AMC 12B
+
+## Publications
+
+- Xu, E., Park, S., **Calderon, J.**, et al. (2023). [In Silico Identification and In Vitro Validation of Repurposed Compounds Targeting the RSV Polymerase](https://doi.org/10.3390/microorganisms11061608). *Microorganisms*, 11(6), 1608.
+- US Patent [20240415923 A1](https://patents.google.com/patent/US20240415923A1) — "RNA-Dependent RNA Polymerase Inhibitory Compounds" (Emory University, 2024)
 
 ## Tech Stack
 
 ### Languages
 ![Java](https://img.shields.io/badge/-Java-007396?style=flat&logo=openjdk&logoColor=white)
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
+![Rust](https://img.shields.io/badge/-Rust-000000?style=flat&logo=rust&logoColor=white)
 ![C++](https://img.shields.io/badge/-C++-00599C?style=flat&logo=cplusplus&logoColor=white)
 ![C](https://img.shields.io/badge/-C-A8B9CC?style=flat&logo=c&logoColor=black)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
@@ -54,9 +65,13 @@ A production-grade paper trading system that autonomously ingests financial news
 ![Celery](https://img.shields.io/badge/-Celery-37814A?style=flat&logo=celery&logoColor=white)
 ![LangChain](https://img.shields.io/badge/-LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white)
 ![LangGraph](https://img.shields.io/badge/-LangGraph-1C3C3C?style=flat&logo=langchain&logoColor=white)
+![Tokio](https://img.shields.io/badge/-Tokio-000000?style=flat&logo=rust&logoColor=white)
+![pybind11](https://img.shields.io/badge/-pybind11-00599C?style=flat&logo=cplusplus&logoColor=white)
 
 ### Tools & Platforms
 ![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat&logo=amazonwebservices&logoColor=white)
+![Azure](https://img.shields.io/badge/-Azure-0078D4?style=flat&logo=microsoftazure&logoColor=white)
+![OpenTelemetry](https://img.shields.io/badge/-OpenTelemetry-000000?style=flat&logo=opentelemetry&logoColor=white)
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/-Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
 ![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white)
