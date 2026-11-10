@@ -1,7 +1,11 @@
-# Welcome to my GitHub!
+<h1 align="center">Hi, I'm Juan 👋</h1>
+<p align="center"><b>EECS &amp; Math @ UC Berkeley</b> · Quant trading · Distributed systems · AI infrastructure</p>
 
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/juanmcalderon/)
-[![Personal Website](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://juancal28.github.io)
+<p align="center">
+  <a href="https://www.linkedin.com/in/juanmcalderon/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://juancal28.github.io"><img src="https://img.shields.io/badge/Website-1A1B27?style=for-the-badge&logo=githubpages&logoColor=white" alt="Personal Website" /></a>
+  <a href="Calderon_Resume_SWE.pdf"><img src="https://img.shields.io/badge/Resume-7AA2F7?style=for-the-badge&logo=readdotcv&logoColor=white" alt="Resume" /></a>
+</p>
 
 ## About Me
 
@@ -86,12 +90,23 @@ A dual-sided marketplace connecting homeowners with trade professionals, built o
 ## GitHub Stats
 
 <p align="center">
-  <img src="profile-summary-card-output/tokyonight/0-profile-details.svg" alt="Profile Details" />
-  <br/>
-  <img src="profile-summary-card-output/tokyonight/1-repos-per-language.svg" alt="Repos Per Language" />
-  <img src="profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="Most Commit Language" />
-  <br/>
-  <img src="profile-summary-card-output/tokyonight/3-stats.svg" alt="GitHub Stats" />
-  <br/>
-  <img src="https://streak-stats.demolab.com/?user=juancal28&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+  <img src="profile-summary-card-output/tokyonight/0-profile-details.svg" alt="Profile Details" width="100%" />
+</p>
+
+<p align="center">
+  <img src="profile-summary-card-output/tokyonight/1-repos-per-language.svg" alt="Repos Per Language" width="49%" />
+  <img src="profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="Most Commit Language" width="49%" />
+</p>
+
+<p align="center">
+  <img src="profile-summary-card-output/tokyonight/3-stats.svg" alt="GitHub Stats" width="49%" />
+  <img src="https://streak-stats.demolab.com/?user=juancal28&theme=tokyonight&background=1A1B27&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub Streak" width="49%" />
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/juancal28/juancal28/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/juancal28/juancal28/output/github-snake.svg" />
+    <img src="https://raw.githubusercontent.com/juancal28/juancal28/output/github-snake-dark.svg" alt="Contribution snake animation" width="100%" />
+  </picture>
 </p>
