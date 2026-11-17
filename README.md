@@ -1,5 +1,5 @@
 <h1 align="center">Hi, I'm Juan 👋</h1>
-<p align="center"><b>EECS &amp; Math @ UC Berkeley</b> · Quant trading · Distributed systems · AI infrastructure</p>
+<p align="center"><b>EECS &amp; Math @ UC Berkeley</b> · Software Engineering · Distributed systems · AI infrastructure</p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/juanmcalderon/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
